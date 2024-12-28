@@ -22,9 +22,6 @@ h1{
     padding: 10px;
     border-radius: 20px;
     width: 300px;
-   /* text-align: center;
-   align-content: center; */
-   justify-items: center;
    justify-self: center;
 }
 .container button{

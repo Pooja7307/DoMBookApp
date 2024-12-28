@@ -5,6 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Admin</title>
     <link rel="stylesheet" href="style.css">
+    <!-- <style>
+        #form2{
+            background-color: wheat;
+            text-align: center;
+        }
+        input{
+            background-color: wheat;
+            border: 1px yellow;
+
+        }
+        #categories{
+            background-color: wheat;
+            border: 1px yellow;
+
+        }
+
+    </style> -->
+   
 </head>
 <body>
     <nav>
@@ -12,6 +30,18 @@
         <a href="admin.html">Admin</a>
         <a href="books.html">Books</a>
     </nav>
-    <h1>Welcome Admin</h1>
+    <h1>Welcome To Admin Page</h1>
+    <form id="form2">
+        <h2>Add new Books</h2>
+        <input type="Title" id="title" placeholder="Title">
+        <input type="Author" id="author" placeholder="Author">
+        <input type="Category" id="category" placeholder="Category">
+        <select id="categories">
+           <option value="fiction">Fiction</option>
+           <option value="comedy">Comedy</option>
+           <option value="technical">Technical</option>
+        </select>
+    </form>
+    
 </body>
 </html>
